@@ -1,7 +1,6 @@
 FROM alpine:3.11
 
-LABEL repository="https://github.com/SamKirkland/FTP-Deploy-Action"
-LABEL maintainer="Sam Kirkland <FTP-Deploy-Action@samkirkland.com>"
+LABEL maintainer="Alexandre Gauthier <alex@lab.underwares.org>"
 
 RUN apk --no-cache add curl bash git nodejs libssh2-dev build-base
 
