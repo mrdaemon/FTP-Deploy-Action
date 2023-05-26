@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.9
 
 LABEL maintainer="Alexandre Gauthier <alex@lab.underwares.org>"
 
